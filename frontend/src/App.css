@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 200,
+  'opsz' 200
+}
+
+
+.material-symbols-outlined {
+  border-radius: 100px;
+}
+  
+
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    color: rgb(66, 25, 25);
+} 
+
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #f0f0f0;
+}
+
+.navbar-things {
+    text-align: right;
+}
+
+.TopBar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Styling the back button*/
+
+
+.Back {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+
+.Back a {
+    text-decoration: none; /* Remove the underline from the Link */
+    color: #007bff; /* Customize the color of the Link */
+    font-weight: bold; /* Make the link text bold */
+}
+
+
+/* Styling the form */
+.create_sport {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create_sport form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create_sport label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .create_sport input[type="text"],
+  .create_sport input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .create_sport input[type="text"] {
+    border-radius: 10px; /* Circular shape for the timing slots */
+    text-align: center;  /* Center the text inside the input */
+    background-color: #ffffff; /* White background for the slots */
+    
+  }
+  
+  .create_sport button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create_sport button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create_sport button[type="button"] {
+    margin-bottom: 20px; /* Space between "Add another slot" and submit button */
+    background-color: #28a745;
+  }
+  
+  .create_sport button[type="button"]:hover {
+    background-color: #218838;
+  }  
+
+
+  /* Sport details box*/ 
+
+/* App.css */
+
+.show-sport {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.sport-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sport-item-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.sport-item-box:hover {
+  transform: translateY(-5px);
+}
+
+.sport-item-box p {
+  margin: 10px 0;
+  color: #333333;
+  font-weight: bold;
+}
+
+.centered-hr {
+  width: 80%;
+  margin: 10px auto;
+  border: 0;
+  border-top: 1px solid #dddddd;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.material-symbols-outlined {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.book-slot-container {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #dddddd;
+}
+
+.book-slot-container h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.book-slot-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-slot-container li {
+  margin: 10px 0;
+}
+
+.book-slot-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+}
+
+.book-slot-container button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
