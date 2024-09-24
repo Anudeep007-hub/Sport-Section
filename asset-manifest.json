@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anudeep007-hub.github.io/Sport-Section.git/static/css/main.d83eaa13.css",
+    "main.js": "/Anudeep007-hub.github.io/Sport-Section.git/static/js/main.d15a24b8.js",
+    "index.html": "/Anudeep007-hub.github.io/Sport-Section.git/index.html",
+    "main.d83eaa13.css.map": "/Anudeep007-hub.github.io/Sport-Section.git/static/css/main.d83eaa13.css.map",
+    "main.d15a24b8.js.map": "/Anudeep007-hub.github.io/Sport-Section.git/static/js/main.d15a24b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d83eaa13.css",
+    "static/js/main.d15a24b8.js"
+  ]
+}
